@@ -1,0 +1,24 @@
+{
+  "name": "projectweek-1-team-5",
+  "version": "1.0.0",
+  "description": "linking html files with mysql",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vives-projectweek-1-2020/projectweek-1-team-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vives-projectweek-1-2020/projectweek-1-team-5/issues"
+  },
+  "homepage": "https://github.com/vives-projectweek-1-2020/projectweek-1-team-5#readme"
+}
