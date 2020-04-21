@@ -1,0 +1,19 @@
+﻿@page
+@model SupermarkCheck.Pages.ReservationModel
+@{
+    ViewData["Title"] = "Reservation";
+    List<string> testList = new List<string> {"test", "string", "List", "for", "reservation" };
+}
+
+<h1>Reservation</h1>
+   
+@{ 
+    foreach (string i in testList)
+    {
+        <lu>
+            <h2>Reserve a spot at shop: @i</h2> 
+        </lu>
+    }
+}
+
+
