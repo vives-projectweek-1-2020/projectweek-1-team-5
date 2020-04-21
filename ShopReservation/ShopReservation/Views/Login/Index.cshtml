@@ -1,0 +1,65 @@
+﻿@model ShopReservation.Models.Person
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/stylesheet.css">
+    <title>winkel x Corona</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>Winkels x Corona</h1>
+            <button onclick="window.location.href = 'index.html';">Home</button>
+            <button onclick="document.getElementById('login').style.display='block'">Login</button>
+            <button onclick="window.location.href = 'register.html';">Register</button>
+        </header>
+
+
+        <div id="login" class="model">
+
+            <form>
+                <div class="image">
+                    <button onclick="document.getElementById('login').style.display='none'" class="close" title="Close Model">&times;</button>
+                    <img src="~/img_avatar.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label asp-for="PersonName" class="control-label"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" asp-for="PersonName" class="form-control"  required/>
+                    <span asp-validation-for="PersonName" class="text-danger"></span>
+
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" asp-for="PassWord" class="form-control" required/>
+                    <span asp-validation-for="PassWord" class="text-danger"></span>
+                    
+                    <div class="form-group">
+                        <button type="submit" value="Create" class="btn btn-primary">Login</button> 
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div id="content">
+        <article id="intro">
+            Na een grote periode van lockdown, kan het heropstarten van bepaalde zaken en winkels terug beginnen.
+            De maatregelen voor het verspreiden van het virus zorgen voor wat ongemak in het dagelijks leven.
+            Met deze site hopen wij om kleinere zaken het leven wat gemakkelijker te maken door een beurte systeem aan te bieden met een reserveersysteem.
+            Het is de bedoeling om wachtrijen buiten voor de winkels te vermijden en daardoor ook onnodig contact te vermijden.
+            Met ons systeem zal je een tijdslot kunnen reserveren en daardoor je dag beter inplannen zelf gedurende de quarantaine.
+        </article>
+        <article>
+            Klik de Register knop om uw te registreren. Als u al een account hebt, klik dan op Login.
+        </article>
+    </div>
+    <footer>
+    </footer>
+
+</body>
+</html>
+
