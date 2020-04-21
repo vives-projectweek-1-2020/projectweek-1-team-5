@@ -31,3 +31,24 @@ input[type=text], input[type=password] {
   background-color: rgba(0,0,0,0.4);
   padding-top: 60px;
 }
+.image{
+  text-align: center;
+  position: relative; 
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.container {
+  padding: 16px;
+}
+.password {
+  float: right;
+  padding-top: 16px;
+}
+.close{
+  float: left;
+}
+form{
+  width: 500px;
+}
