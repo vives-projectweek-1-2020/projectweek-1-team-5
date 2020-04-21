@@ -13,5 +13,10 @@ namespace SupermarkCheck.Pages
         {
 
         }
+
+        public string AddReservation()
+        {
+            return "added";
+        }
     }
 }
