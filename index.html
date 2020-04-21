@@ -11,11 +11,31 @@
         <header>
             <h1>Winkels x Corona</h1>
             <button onclick="window.location.href = 'index.html';">Home</button>
-            <button onclick="window.location.href = 'login.html';">Login</button>
+            <button onclick="document.getElementById('login').style.display='block'">Login</button>            
             <button onclick="window.location.href = 'register.html';">Register</button>       
         </header>
-        <div id="login">
+        
 
+<div id="login" class="model">
+  
+  <form>
+    <div class="imgcontainer">
+      <button onclick="document.getElementById('login').style.display='none'" class="close" title="Close Model">&times;</button>
+      <img src="img_avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+        
+      <button type="submit">Login</button>      
+    </div>    
+  </form>
+
+</div>
         </div>
         <div id="content">
             <article id="intro">
@@ -32,6 +52,6 @@
         <footer>
             
         </footer>
-    </div>
+    
 </body>
-</html>s
+</html>
