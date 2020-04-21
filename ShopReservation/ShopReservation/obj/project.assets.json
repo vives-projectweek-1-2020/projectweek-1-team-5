@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\lamme\\.nuget\\packages\\": {}
+    "C:\\Users\\Simon\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School\\Minor\\ProjectWeek1\\projectweek-1-team-5\\ShopReservation\\ShopReservation\\ShopReservation.csproj",
+      "projectUniqueName": "C:\\Users\\Simon\\OneDrive - Hogeschool VIVES\\School\\projectweek-1-team-5\\ShopReservation\\ShopReservation\\ShopReservation.csproj",
       "projectName": "ShopReservation",
-      "projectPath": "D:\\School\\Minor\\ProjectWeek1\\projectweek-1-team-5\\ShopReservation\\ShopReservation\\ShopReservation.csproj",
-      "packagesPath": "C:\\Users\\lamme\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\Minor\\ProjectWeek1\\projectweek-1-team-5\\ShopReservation\\ShopReservation\\obj\\",
+      "projectPath": "C:\\Users\\Simon\\OneDrive - Hogeschool VIVES\\School\\projectweek-1-team-5\\ShopReservation\\ShopReservation\\ShopReservation.csproj",
+      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Simon\\OneDrive - Hogeschool VIVES\\School\\projectweek-1-team-5\\ShopReservation\\ShopReservation\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\lamme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
