@@ -27,24 +27,77 @@ namespace ShopReservation.Controllers
             return  View(await _context.User.ToListAsync());
         }
 
-        public ActionResult Edit(int Id)
+        public async Task<IActionResult> Edit(int? id)
         {
-            //Get the student from studentList sample collection for demo purpose.
-            //Get the student from the database in the real application
-            //var std = PersonList.Where(s => s.PersonId == Id).FirstOrDefault();
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-            
+            var user = await _context.User.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
 
+        // POST: Movies/Edit/5
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("UserId,UserName,UserPassword")] User user)
+        {
+            if (id != user.UserId)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+
+                    _context.Update(user);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!UserExists(user.UserId))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction("Index");
+            }
+            return View(user);
+        }
+
+        public IActionResult Create()
+        {
             return View();
         }
 
+        // POST: api/Users
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
+        // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
-        public ActionResult Edit(Person std)
+        public async Task<ActionResult<User>> PostUser(User user)
         {
-            var name = std.PersonName;
-            
+            _context.User.Add(user);
+            await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+            return CreatedAtAction("GetUser", new { id = user.UserId }, user);
+        }
+
+        private bool UserExists(int id)
+        {
+            return _context.User.Any(e => e.UserId == id);
         }
     }
 }
