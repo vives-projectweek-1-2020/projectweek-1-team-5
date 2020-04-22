@@ -12,13 +12,51 @@ namespace ShopReservation.Controllers
 {
     public class LoginController : Controller
     {
+
+        private UserContext _context;
+
+        public LoginController(UserContext context)
+        {
+            _context = context;
+        }
+
         // GET: /<controller>/
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Register()
+        // POST: api/Users
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
+        // more details see https://aka.ms/RazorPagesCRUD.
+        [HttpPost]
+        public async Task<ActionResult<User>> PostUser(User user)
+        {
+            _context.User.Add(user);
+            await _context.SaveChangesAsync();
+
+            return Redirect("/Persons");
+        }
+
+        public async Task<ActionResult<User>> Login(User user)
+        {
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var userLogin = await _context.User.SingleOrDefaultAsync(u => u.UserName == user.UserName && u.UserPassword == user.UserPassword);
+
+            if (userLogin == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return RedirectToAction("LoggedIn");
+        }
+
+
+        public IActionResult LoggedIn()
         {
             return View();
         }

@@ -308,3 +308,5 @@ D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservatio
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Create.cshtml.g.cs
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Delete.cshtml.g.cs
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Login\LoggedIn.cshtml.g.cs

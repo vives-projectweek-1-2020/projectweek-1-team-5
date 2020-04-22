@@ -1,4 +1,4 @@
-﻿@model ShopReservation.Models.Person
+﻿@model ShopReservation.Models.User
 
 @{
     ViewData["Title"] = "Index";
@@ -19,34 +19,34 @@
         </header>
 
         <div id="login" class="model">
-            <form>
+            <form asp-action="Login">
                 <div class="image_container">
                     <button onclick="document.getElementById('login').style.display='none'" class="close" title="Close Model">&times;</button>
                     <img src="~/img_avatar.png" alt="Avatar" class="image">
                 </div>
                 <div class="container">
-                    <label asp-for="PersonName" class="control-label"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" asp-for="PersonName" class="form-control" required />
-                    <span asp-validation-for="PersonName" class="text-danger"></span>
+                    <label asp-for="UserName" class="control-label"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" asp-for="UserName" class="form-control" required />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
 
                     <label for="password"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" asp-for="PassWord" class="form-control" required />
-                    <span asp-validation-for="PassWord" class="text-danger"></span>
+                    <input type="password" placeholder="Enter Password" asp-for="UserPassword" class="form-control" required />
+                    <span asp-validation-for="UserPassword" class="text-danger"></span>
 
                     <div class="form-group">
-                        <button type="submit" value="Create" class="btn btn-primary">Login</button>
+                        <button type="submit" value="Login" class="btn btn-primary">Login</button>
                     </div>
                 </div>
             </form>
         </div>
 
         <div id="register" class="model">
-            <form>
+            <form asp-action="PostUser">
                 <div class="image_container">
                     <button onclick="document.getElementById('register').style.display='none'" class="close" title="Close Model">&times;</button>
                     <img src="~/register.png" class="image">
                 </div>
-                <div class="container">
+                @*<div class="container">
                     <label for="lastname"><b>Lastname</b></label>
                     <input type="text" placeholder="Enter Lastname" name="lastname" required>
 
@@ -56,13 +56,31 @@
                     <label for="email"><b>Email</b></label>
                     <input type="text" placeholder="Enter your email" name="email" required>
 
-                    <label for="username"><b>Username</b></label>
-                    <input type="text" placeholder="Enter your username" name="username" required>
+                    <label asp-for="UserName"><b>Username</b></label>
+                    <input type="text" placeholder="Enter your username" asp-for="UserName" class="form-control" name="username" required>
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+
+                    <label asp-for="UserPassword"><b>Password</b></label>
+                    <input asp-for="UserPassword" type="password" placeholder="Enter your password" class="form-control" name="password" required>
+                    <span asp-validation-for="UserPassword" class="text-danger"></span>
+
+                    <div class="form-group">
+                        <button type="submit" value="Create" class="btn btn-primary">Login</button>
+                    </div>
+                 </div>*@
+
+                <div class="container">
+                    <label asp-for="UserName" class="control-label"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" asp-for="UserName" class="form-control" required />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
 
                     <label for="password"><b>Password</b></label>
-                    <input type="text" placeholder="Enter your password" name="password" required>
+                    <input type="password" placeholder="Enter Password" asp-for="UserPassword" class="form-control" required />
+                    <span asp-validation-for="UserPassword" class="text-danger"></span>
 
-                    <button type="submit">Register</button>
+                    <div class="form-group">
+                        <button type="submit" value="Create" class="btn btn-primary">Register</button>
+                    </div>
                 </div>
             </form>
         </div>

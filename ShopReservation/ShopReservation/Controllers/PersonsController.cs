@@ -95,6 +95,33 @@ namespace ShopReservation.Controllers
             return CreatedAtAction("GetUser", new { id = user.UserId }, user);
         }
 
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var movie = await _context.User.SingleOrDefaultAsync(m => m.UserId == id);
+            if (movie == null)
+            {
+                return NotFound();
+            }
+
+            return View(movie);
+        }
+
+        // POST: Movies/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var movie = await _context.User.SingleOrDefaultAsync(m => m.UserId == id);
+            _context.User.Remove(movie);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
         private bool UserExists(int id)
         {
             return _context.User.Any(e => e.UserId == id);
