@@ -112,3 +112,15 @@ D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservatio
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Index.cshtml.g.cs
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Edit.cshtml.g.cs
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.csprojAssemblyReference.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.csproj.CoreCompileInputs.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.RazorAssemblyInfo.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.RazorAssemblyInfo.cs
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.AssemblyInfoInputs.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.AssemblyInfo.cs
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.TagHelpers.input.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.TagHelpers.output.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.RazorCoreGenerate.cache
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.dll
+C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.pdb
