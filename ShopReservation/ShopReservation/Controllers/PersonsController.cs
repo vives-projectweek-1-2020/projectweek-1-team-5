@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ShopReservation.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,32 +12,30 @@ namespace ShopReservation.Controllers
 {
     public class PersonsController : Controller
     {
-        public IList<Person> PersonList = new List<Person>
-            {
-                new Person() {PersonId = 0, PersonName = "Name1"},
-                new Person() {PersonId = 1, PersonName = "Name2"},
-                new Person() {PersonId = 2, PersonName = "Name3"},
-                new Person() {PersonId = 3, PersonName = "Name4"},
-                new Person() {PersonId = 4, PersonName = "Name5"},
-                new Person() {PersonId = 5, PersonName = "Name6"},
-            };
+
+        private UserContext _context;
+
+        public PersonsController(UserContext context)
+        {
+            _context = context;
+        }
 
         // GET: /<controller>/
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             
-            return View(PersonList);
+            return  View(await _context.User.ToListAsync());
         }
 
         public ActionResult Edit(int Id)
         {
             //Get the student from studentList sample collection for demo purpose.
             //Get the student from the database in the real application
-            var std = PersonList.Where(s => s.PersonId == Id).FirstOrDefault();
+            //var std = PersonList.Where(s => s.PersonId == Id).FirstOrDefault();
 
             
 
-            return View(std);
+            return View();
         }
 
         [HttpPost]

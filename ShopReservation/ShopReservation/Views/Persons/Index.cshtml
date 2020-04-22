@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ShopReservation.Models.Person>
+﻿@model IEnumerable<ShopReservation.Models.User>
 
 @{
     ViewData["Title"] = "Index";
@@ -14,10 +14,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.PersonId)
+                @Html.DisplayNameFor(model => model.UserId)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PersonName)
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserPassword)
             </th>
             <th></th>
         </tr>
@@ -26,15 +29,18 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.PersonId)
+                @Html.DisplayFor(modelItem => item.UserId)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PersonName)
+                @Html.DisplayFor(modelItem => item.UserName)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.PersonId } ) |
-                @Html.ActionLink("Details", "Details", new { id = item.PersonId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.PersonId })
+                @Html.DisplayFor(modelItem => item.UserPassword)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.UserId } ) |
+                @Html.ActionLink("Details", "Details", new { id = item.UserId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.UserId })
             </td>
         </tr>
 }

@@ -10,6 +10,6 @@ namespace ShopReservation.Models
         {
         }
 
-        public DbSet<User> Movie { get; set; }
+        public DbSet<User> User { get; set; }
     }
 }
