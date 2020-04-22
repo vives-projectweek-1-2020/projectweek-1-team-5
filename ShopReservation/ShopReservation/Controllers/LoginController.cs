@@ -15,5 +15,11 @@ namespace ShopReservation.Controllers
         {
             return View();
         }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
     }
 }

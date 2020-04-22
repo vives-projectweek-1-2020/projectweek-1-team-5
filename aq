@@ -1,0 +1,87 @@
+* [33mcommit 80e0e465d9fb6181f9ab3abf4a76203d6e165514[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/Lammert[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+[31m|[m Author: lambo112 <lammertpuntbakker@gmail.com>
+[31m|[m Date:   Tue Apr 21 10:59:45 2020 +0200
+[31m|[m 
+[31m|[m     aanpassing project
+[31m|[m 
+* [33mcommit 50744a5919b1d16b0dad78e575663db6606f2448[m
+[31m|[m Author: lambo112 <lammertpuntbakker@gmail.com>
+[31m|[m Date:   Tue Apr 21 10:23:34 2020 +0200
+[31m|[m 
+[31m|[m     new branch
+[31m|[m 
+* [33mcommit 756ba40714638047a28989b4565ae8bd58dfdb07[m
+[31m|[m Author: Simon De Neve <simon.deneve@gmail.com>
+[31m|[m Date:   Tue Apr 21 09:41:16 2020 +0200
+[31m|[m 
+[31m|[m     new login form
+[31m|[m   
+*   [33mcommit 19d08e14a2597317259d8fd7ecf5f7e9b6e3f17a[m
+[32m|[m[33m\[m  Merge: c337064 457a188
+[32m|[m [33m|[m Author: Simon De Neve <simon.deneve@gmail.com>
+[32m|[m [33m|[m Date:   Tue Apr 21 08:58:54 2020 +0200
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     Merge branch 'master' of github.com:vives-projectweek-1-2020/projectweek-1-team-5
+[32m|[m [33m|[m 
+[32m|[m * [33mcommit 457a188c8d0e6e69aa46b75bd322d4335a1cc59f[m
+[32m|[m [33m|[m Author: lambo112 <lammertpuntbakker@gmail.com>
+[32m|[m [33m|[m Date:   Tue Apr 21 08:56:56 2020 +0200
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     basic web application
+[32m|[m [33m|[m 
+* [33m|[m [33mcommit c337064accb59bcdd21180a64193892f8809cc2f[m
+[33m|[m[33m/[m  Author: Simon De Neve <simon.deneve@gmail.com>
+[33m|[m   Date:   Tue Apr 21 08:58:26 2020 +0200
+[33m|[m   
+[33m|[m       commiting for clean state
+[33m|[m 
+* [33mcommit 06e3e57d660df09c4000397d78576556d2a639b2[m
+[33m|[m Author: Simon De Neve <simon.deneve@gmail.com>
+[33m|[m Date:   Tue Apr 21 08:29:20 2020 +0200
+[33m|[m 
+[33m|[m     home page intro
+[33m|[m 
+* [33mcommit 22109ab57bb6c387998ce88af7223bd95dc7cddb[m
+[33m|[m Author: Simon De Neve <simon.deneve@gmail.com>
+[33m|[m Date:   Mon Apr 20 17:26:05 2020 +0200
+[33m|[m 
+[33m|[m     linking between pages home, login and register
+[33m|[m 
+* [33mcommit a41a2fe6b43d1c156fffa23dacc6ccf691148251[m
+[33m|[m Author: Simon De Neve <simon.deneve@gmail.com>
+[33m|[m Date:   Mon Apr 20 16:41:13 2020 +0200
+[33m|[m 
+[33m|[m     buttons to home page
+[33m|[m   
+*   [33mcommit ed31b2467ade9e265970eb1b9f7777315bd28ce4[m
+[34m|[m[35m\[m  Merge: 4d2232d e6dc5d3
+[34m|[m [35m|[m Author: Simon De Neve <simon.deneve@gmail.com>
+[34m|[m [35m|[m Date:   Mon Apr 20 15:45:25 2020 +0200
+[34m|[m [35m|[m 
+[34m|[m [35m|[m     task division
+[34m|[m [35m|[m 
+[34m|[m * [33mcommit e6dc5d3a6e658583b4feeb62eb8c9a95e622d9d3[m
+[34m|[m [35m|[m Author: Bakkertje <32537629+lambo112@users.noreply.github.com>
+[34m|[m [35m|[m Date:   Mon Apr 20 14:49:05 2020 +0200
+[34m|[m [35m|[m 
+[34m|[m [35m|[m     Update README.md
+[34m|[m [35m|[m     
+[34m|[m [35m|[m     wich -> which
+[34m|[m [35m|[m 
+* [35m|[m [33mcommit 4d2232d8a0eef08f4b1843bb2c9e8d06d810d0d3[m
+[35m|[m[35m/[m  Author: Simon De Neve <simon.deneve@gmail.com>
+[35m|[m   Date:   Mon Apr 20 15:43:51 2020 +0200
+[35m|[m   
+[35m|[m       task division
+[35m|[m 
+* [33mcommit 783c67c8ac523ccefeffa1d4676a45029b7cb08d[m
+[35m|[m Author: Simon De Neve <simon.deneve@gmail.com>
+[35m|[m Date:   Mon Apr 20 14:33:33 2020 +0200
+[35m|[m 
+[35m|[m     additions to README
+[35m|[m 
+* [33mcommit 5c31f9986c330f439d366638e01030f5a1fab2e0[m
+  Author: Simon De Neve <simon.deneve@gmail.com>
+  Date:   Mon Apr 20 14:13:20 2020 +0200
+  
+      first commit
