@@ -7,8 +7,6 @@ D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservatio
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\ShopReservation.runtimeconfig.dev.json
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\ShopReservation.dll
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\ShopReservation.pdb
-D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\ShopReservation.Views.dll
-D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\ShopReservation.Views.pdb
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.csprojAssemblyReference.cache
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.RazorAssemblyInfo.cache
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.RazorAssemblyInfo.cs
@@ -27,7 +25,6 @@ D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservatio
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.RazorTargetAssemblyInfo.cache
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.RazorTargetAssemblyInfo.cs
-D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.Views.pdb
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\staticwebassets\ShopReservation.StaticWebAssets.Manifest.cache
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\staticwebassets\ShopReservation.StaticWebAssets.xml
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.dll
@@ -107,8 +104,6 @@ D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservatio
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.csproj.CoreCompileInputs.cache
-D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.MvcApplicationPartsAssemblyInfo.cache
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Index.cshtml.g.cs
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Edit.cshtml.g.cs
 D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
@@ -226,3 +221,38 @@ C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReser
 C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\staticwebassets\ShopReservation.StaticWebAssets.Manifest.cache
 C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\staticwebassets\ShopReservation.StaticWebAssets.xml
 C:\Users\Simon\OneDrive - Hogeschool VIVES\School\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.genruntimeconfig.cache
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\ShopReservation.Views.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\ShopReservation.Views.pdb
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.csproj.CoreCompileInputs.cache
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.MvcApplicationPartsAssemblyInfo.cache
+D:\School\Minor\ProjectWeek1\projectweek-1-team-5\ShopReservation\ShopReservation\obj\Debug\netcoreapp3.1\ShopReservation.Views.pdb
