@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShopReservation.Context;
 using ShopReservation.Models;
 
 namespace ShopReservation
@@ -28,6 +29,10 @@ namespace ShopReservation
             services.AddControllersWithViews();
 
             services.AddDbContext<UserContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MvcUserContext")));
+
+
+            services.AddDbContext<MvcShopContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MvcUserContext")));
         }
 

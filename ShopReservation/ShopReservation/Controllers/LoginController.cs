@@ -56,7 +56,7 @@ namespace ShopReservation.Controllers
                 return RedirectToAction("Index");
             }
 
-            return RedirectToAction("LoggedIn");
+            return RedirectToAction("Index", "ShopModels");
         }
 
 
