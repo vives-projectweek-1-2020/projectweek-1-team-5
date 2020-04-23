@@ -22,8 +22,17 @@ h1 {
     right: inherit;
 }
 
-.header {
-    display: inline-block;
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    align-self:center;
+}
+header div button {
+    margin: 5px;
+    padding: 15px;
 }
 
 input[type=text], input[type=password] {

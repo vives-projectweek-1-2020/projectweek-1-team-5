@@ -13,10 +13,13 @@
 <body>
     <div class="page">
         <header>
-            <button onclick="document.getElementById('login').style.display='block';document.getElementById('register').style.display='none'">Login</button>
-            <button onclick="document.getElementById('register').style.display='block';document.getElementById('login').style.display='none'">Register</button>
-        </header>
             <h1>Winkels x Corona</h1>
+            <div>
+                <button onclick="document.getElementById('login').style.display='block';document.getElementById('register').style.display='none'">Login</button>
+                <button onclick="document.getElementById('register').style.display='block';document.getElementById('login').style.display='none'">Register</button>
+            </div>       
+        </header>
+            
 
         <div id="login" class="model">
             <form asp-action="Login">
