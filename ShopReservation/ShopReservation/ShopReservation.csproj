@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Login\aboutus.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Login\aboutus.cshtml" />
     <None Include="wwwroot\css\stylesheet.css" />
   </ItemGroup>
 
