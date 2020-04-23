@@ -1,7 +1,72 @@
 ﻿
 @{
     ViewData["Title"] = "Index";
+    Layout = null;
 }
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/stylesheet.css">
+    <title>winkel x Corona</title>
+</head>
+<body>
+    <header>
+        <h1>Winkels x Corona</h1>
+        <div>
+            <button onclick="document.getElementById('login').style.display='block';document.getElementById('register').style.display='none'">Login</button>
+            <button onclick="document.getElementById('register').style.display='block';document.getElementById('login').style.display='none'">Register</button>
+            <button onclick="document.location='Login/Aboutus'" formtarget="_blank">About us</button>
+        </div>
+    </header>
 
-<h1>Index</h1>
+    <div id="login" class="model">
+        <form asp-action="OrganisationLogin">
+            <div class="image_container">
+                <button onclick="document.getElementById('login').style.display='none'" class="close" style="float:right" title="Close Model">&times;</button>
+            </div>
+            <div class="container" style="background:#b3b3b3">
+                <label class="control-label"><b>Company</b></label>
+                <input type="text" placeholder="Enter the name of your company" class="form-control" required />
+                <span class="text-danger"></span>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" class="form-control" required />
+                <span class="text-danger"></span>
+
+                <div class="form-group">
+                    <button type="submit" value="Login" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="register" class="model">
+        <form asp-action="PostUser">
+            <div class="image_container">
+                <button onclick="document.getElementById('register').style.display='none'" class="close" title="Close Model">&times;</button>
+                <img src="~/register.png" class="image">
+            </div>
+            <div class="container">
+                <label class="control-label"><b>Company</b></label>
+                <input type="text" placeholder="Enter the name of your company" class="form-control" required />
+                <span class="text-danger"></span>
+
+                <label for="address"><b>Address</b></label>
+                <input type="text" placeholder="Enter the address" name="address" required>
+
+                <label for="capacity"><b>Maximum capacity in the store per hour</b></label>
+                <input type="number" placeholder="Enter the maximum capacity" name="capacity" style="display:block;padding:5px;margin:5px 0px;" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" class="form-control" required />
+                <span class="text-danger"></span>
+
+                <div class="form-group">
+                    <button type="submit" value="Create" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
 
