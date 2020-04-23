@@ -89,3 +89,11 @@ form {
 #content {
     margin-top: 15px;
 }
+
+.table {
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+}
