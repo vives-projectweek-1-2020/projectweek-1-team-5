@@ -65,30 +65,21 @@ namespace ShopReservation
             return View(shopModel);
         }
 
-        public async Task<IActionResult> Add(ShopModel shop)
+        
+        public async Task<ActionResult<ShopModel>> Add(int? id)
         {
-            if (shop == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var shopmodel = await _context.Shop.FindAsync(shop.Id);
+            var shopmodel = await _context.Shop.FindAsync(id);
             if (shopmodel == null)
             {
                 return NotFound();
             }
 
-            if (shop.Spots != shop.Reserved)
-            {
-                shop.Reserved++;
-                _context.Update(shop);
-                await _context.SaveChangesAsync();
-
-                return RedirectToAction("Index", "ShopModels");
-            }
-
-            return RedirectToAction("Index", "ShopModels");
-
+            return View(shopmodel);
         }
 
         // GET: ShopModels/Edit/5
@@ -106,6 +97,18 @@ namespace ShopReservation
             }
             //shopModel.Reserved++;
             return View(shopModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add(int id)
+        {
+            var shopModel = await _context.Shop.FindAsync(id);
+            shopModel.Reserved++;
+
+            _context.Update(shopModel);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
 
 
