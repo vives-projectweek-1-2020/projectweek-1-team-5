@@ -24,7 +24,7 @@
             <div class="image_container">
                 <button onclick="document.getElementById('login').style.display='none'" class="close" style="float:right" title="Close Model">&times;</button>
             </div>
-            <div class="container" style="background:#b3b3b3">
+            <div class="container">
                 <label class="control-label"><b>Company</b></label>
                 <input type="text" placeholder="Enter the name of your company" class="form-control" required />
                 <span class="text-danger"></span>
@@ -41,9 +41,9 @@
     </div>
 
     <div id="register" class="model">
-        <form asp-action="PostUser">
+        <form asp-action="PostOrganisation">
             <div class="image_container">
-                <button onclick="document.getElementById('register').style.display='none'" class="close" title="Close Model">&times;</button>
+                <button onclick="document.getElementById('register').style.display='none'" class="close" style="float:right" title="Close Model">&times;</button>
                 <img src="~/register.png" class="image">
             </div>
             <div class="container">
@@ -55,7 +55,7 @@
                 <input type="text" placeholder="Enter the address" name="address" required>
 
                 <label for="capacity"><b>Maximum capacity in the store per hour</b></label>
-                <input type="number" placeholder="Enter the maximum capacity" name="capacity" style="display:block;padding:5px;margin:5px 0px;" required>
+                <input type="number" placeholder="Maximum capacity" name="capacity" style="display:block;padding:5px;margin:5px 0px;" required>
 
                 <label for="password"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" class="form-control" required />
@@ -66,6 +66,20 @@
                 </div>
             </div>
         </form>
+    </div>
+
+    <div id="content">
+        <article id="intro">
+            Na een grote periode van lockdown, kan het heropstarten van bepaalde zaken en winkels terug beginnen.
+            De maatregelen tegen het verspreiden van het virus zorgen voor wat ongemak in het dagelijks leven.
+            Met deze site hopen wij om ondernemingen het leven wat gemakkelijker te maken door een beurten systeem aan te bieden met reserveringen.
+            Het is de bedoeling om wachtrijen buiten voor de winkels te vermijden en daardoor ook onnodig contact te vermijden.
+            Met ons systeem zal u zich als onderneming kunnen registreren en de maximum capaciteit kunnen vastleggen.
+            Hierna kunnen klanten een reservering maken op het uur ze naar uw winkel wensen te komen.
+        </article>
+        <article>
+            Klik de Register knop om u te registreren. Als u al een account hebt, klik dan op Login.
+        </article>
     </div>
 </body>
 </html>
