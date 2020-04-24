@@ -44,10 +44,17 @@
                 @Html.DisplayFor(modelItem => item.Spots)
             </td>
             <td>
-                <a asp-action="Add" asp-route-id="@item">Reserve Spot</a>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                @if (item.Reserved < item.Spots)
+                {
+                    <a asp-action="Add" asp-route-id="@item.Id">Reserve Spot</a>
+                }
+                else { 
+                    <a style="color: black; pointer-events: none; cursor: default;" href="page.html">No spots left</a>
+                }
+
+                @*<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
             </td>
         </tr>
 }
